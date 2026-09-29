@@ -1,0 +1,89 @@
+# System Files
+# (Informacion que no le sirve a mis compañeros o clientes)
+
+# 1. (evita que se vean archivos invisibles de configuracion de MAC)
+.DS_Store
+# 2. (evita que se suban vistas previas (miniaturas) de tus imagenes en WINDOWS)
+Thumbs.db
+# 3. (evita que se comparta la personalizacion visual de tus carpetas)
+desktop.ini
+
+
+# IDEs / Editors
+# (Configuracion de tu mesa de trabajo personal)
+# (Estos archivos evitan que tu forma personal de usar el editor choque con la de tus compañeros.)
+
+# 1. (Evita que tus colores, extensiones y ajustes de VSCode se le impongan a otros)
+.vscode/
+# 2. (Evita que se compartan indices y el historial de busqueda de WebStorm o IntelliJ)
+.idea/
+# 3. (Evita que se suban tus preferencias personales -archivos abiertos, puntos de pausa- en Visual Studio)
+*.suo
+# 4. (Evitan que se suban archivos de configuracion especificos de Node.js que solo sirven en tu PC)
+*.ntvs*
+# 5. (Lo mismo que .ntvs*)
+*.njsproj
+# NOTA: *.sln NO se ignora aqui a proposito. Ese archivo define los proyectos
+# de la solucion .NET (backend en C#) y SI debe subirse al repositorio,
+# porque sin el nadie mas puede abrir la solucion completa.
+
+
+# Dependencies
+# (Materiales de construccion externos)
+# (Evitan que tu proyecto sea gigante y lento. En lugar de subir el material, subes la "lista de compras" para que cada quien lo descargue.)
+
+# 1. (Evita subir miles de archivos pesados que ya estan en internet)
+node_modules/
+# 2. (Evita que se dupliquen paquetes instalados con la herramienta JSPM)
+jspm_packages/
+# 3. (Evita subir herramientas de relleno que solo sirven para que el navegador entienda ciertos codigos modernos)
+web_modules/
+
+
+# Build / Output - Frontend (Vite)
+# (Resultado final del codigo procesado por Vite; se regenera con cada build)
+
+# 1. (Evita subir la version empaquetada de la web, se vuelve a generar con cada npm run build)
+dist/
+build/
+out/
+# 2. (Evita subir papeles sucios con registros de lo que paso en tu computadora; solo sirven para ver errores del momento)
+*.log
+# 3. (Evita que se queden guardados archivos temporales que el sistema crea y borra por si solo)
+*.tmp
+
+
+# Build / Output - Backend (.NET / C#)
+# (Equivalente a dist/ pero para el backend: archivos binarios compilados por Visual Studio)
+
+# 1. (Evita subir los ejecutables/binarios compilados del backend, se regeneran al compilar)
+backend/bin/
+# 2. (Evita subir archivos intermedios de compilacion del backend)
+backend/obj/
+
+
+# Security / Environment
+# (La caja fuerte de tus secretos)
+# Estos archivos evitan que te roben informacion o dinero. Se quedan siempre en tu computadora para que nadie mas vea tus claves secretas.
+
+# 1. (Evita que tus contraseñas, llaves de pago y datos privados -como la conexion a MySQL- se publiquen en internet)
+.env
+# 2. (Evita que compartas configuraciones que solo funcionan en tu propia computadora)
+.env.local
+# 3. (Evita que tus datos de prueba personales -como una base de datos local- se mezclen con el proyecto real)
+.env.development.local
+# 4. (Lo mismo, pero para el ambiente de pruebas/testing)
+.env.test.local
+# 5. (Evita que se filtren las llaves maestras de la web cuando ya esta funcionando en vivo)
+.env.production.local
+
+
+# Debug logs
+# (Historial de errores de tus herramientas)
+
+# 1. (Evita subir un reporte de fallos de npm que solo te sirve a ti para saber por que fallo algo en tu computadora)
+npm-debug.log*
+# 2. (Lo mismo, pero para Yarn)
+yarn-debug.log*
+# 3. (Evita compartir un registro de errores de Yarn que no ayuda en nada al funcionamiento de la web)
+yarn-error.log*
