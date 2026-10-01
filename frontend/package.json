@@ -1,0 +1,22 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Frontend de NutraAdvance US — plataforma de venta de suplementos de salud y accesorios (hombres y mujeres), con enfoque en confiabilidad y transparencia para productos importados de EE. UU.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --emptyOutDir",
+    "preview": "vite preview",
+    "lint": "eslint *.js src/**/*.js",
+    "format": "prettier --ignore-path ./.gitignore --write \"./**/*.{html,json,js,css}\""
+  },
+  "author": "Jerjes",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.39.5",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0",
+    "prettier": "^3.9.9",
+    "vite": "^8.3.1"
+  }
+}
