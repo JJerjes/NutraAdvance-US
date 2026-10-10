@@ -1,0 +1,12 @@
+[
+  {
+    "id": "hombres-1",
+    "nombre": "NOMBRE DEL PRODUCTO",
+    "descripcion": "✔️ CARACTERÍSTICA 1.<br>✔️ CARACTERÍSTICA 2.<br>✔️ Importado de EE. UU.",
+    "precio": {
+      "original": 0,
+      "oferta": 0
+    },
+    "imagen": "/images/accesorios-hombres/.webp"
+  }
+]

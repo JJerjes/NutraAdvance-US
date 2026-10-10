@@ -1,0 +1,72 @@
+[
+  {
+    "id": "mujer-1",
+    "nombre": "VESTIDO CALVIN KLEIN",
+    "descripcion": "✔️ CARACTERÍSTICA 1.<br>✔️ Color: Verde Esmeralda / Turquesa. 2.<br>✔️ Talla: 8 (M). 3.<br>✔️ Detalle: Cuello cuadrado con vuelos.",
+    "precio": {
+      "original": 450,
+      "oferta": 400
+    },
+    "imagen": "/images/accesorios-mujeres/one.jpg"
+  },
+  {
+    "id": "mujer-2",
+    "nombre": "VESTIDO TOMMY HILFIGER",
+    "descripcion": "✔️ CARACTERÍSTICA 1.<br>✔️ Color: Azul Marino (Navy). 2.<br>✔️ Talla: 6(M). 3.<br>✔️ Detalle: Cierres metálicos dorados en la cintura Y corte sin mangas.",
+    "precio": {
+      "original": 450,
+      "oferta": 400
+    },
+    "imagen": "/images/accesorios-mujeres/two.jpg"
+  },
+  {
+    "id": "mujer-3",
+    "nombre": "VESTIDO TOMMY HILFIGER",
+    "descripcion": "✔️ CARACTERÍSTICA 1.<br>✔️ Color: Azul Marino con detalles Verde y Blanco. 2.<br>✔️ Talla: 10(L) 3.<br>✔️ Detalle: Corte estilizado sin mangas con franja entallada y falda cruzada.",
+    "precio": {
+      "original": 450,
+      "oferta": 400
+    },
+    "imagen": "/images/accesorios-mujeres/three.jpg"
+  },
+  {
+    "id": "mujer-4",
+    "nombre": "VESTIDO CALVIN KLEIN",
+    "descripcion": "✔️ CARACTERÍSTICA 1.<br>✔️ Color: Azul Marino(Navy). 2.<br>✔️ Talla: 4(S). 3.<br>✔️ Detalle: Escote en V, mangas abullonadas y faldón fluido en A.",
+    "precio": {
+      "original": 450,
+      "oferta": 400
+    },
+    "imagen": "/images/accesorios-mujeres/four.jpg"
+  },
+  {
+    "id": "mujer-5",
+    "nombre": "VESTIDO GUESS",
+    "descripcion": "✔️ CARACTERÍSTICA 1.<br>✔️ Color: Negro (Classic Black). 2.<br>✔️ Talla: 10(L). 3.<br>✔️ Detalle: Cuello halter con tiras cruzadas y silueta entallada.",
+    "precio": {
+      "original": 450,
+      "oferta": 400
+    },
+    "imagen": "/images/accesorios-mujeres/five.jpg"
+  },
+  {
+    "id": "mujer-6",
+    "nombre": "VESTIDO TOMMY HILFIGER",
+    "descripcion": "✔️ CARACTERÍSTICA 1.<br>✔️ Color: Negro Azul Marino (Navy). 2.<br>✔️ Talla: 8(M). 3.<br>✔️ Detalle: Corte recto sin mangas con botones dorados laterales.",
+    "precio": {
+      "original": 450,
+      "oferta": 400
+    },
+    "imagen": "/images/accesorios-mujeres/six.jpg"
+  },
+  {
+    "id": "mujer-7",
+    "nombre": "BANDOLERA TOMMY HILFIGER",
+    "descripcion": "✔️ CARACTERÍSTICA 1.<br>✔️ Color: Rojo Oscuro / Vino con detalles dorados. 2.<br>✔️ Detalle: Herrajes metálicos dorados y logo TH al frente.",
+    "precio": {
+      "original": 450,
+      "oferta": 400
+    },
+    "imagen": "/images/accesorios-mujeres/seven.jpg"
+  }
+]

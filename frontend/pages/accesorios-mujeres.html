@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accesorios para Mujeres | NutraAdvance US</title>
+
+    <meta
+      name="description"
+      content="Accesorios para mujeres importados de EE. UU. Calidad importada para tu bienestar, en NutraAdvance US."
+    />
+    <meta name="author" content="NutraAdvance US" />
+    <meta name="robots" content="index, follow" />
+
+    <meta
+      property="og:title"
+      content="Accesorios para Mujeres | NutraAdvance US"
+    />
+    <meta
+      property="og:description"
+      content="Accesorios para mujeres importados de EE. UU."
+    />
+    <meta property="og:image" content="/images/meta-img.png" />
+    <meta property="og:site_name" content="NutraAdvance US" />
+    <meta property="og:type" content="website" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+
+    <link rel="stylesheet" href="/src/css/index.css" />
+    <link rel="stylesheet" href="/src/css/catalogo.css" />
+    <link rel="stylesheet" href="/src/css/modal-pedidos.css" />
+    <script type="module" src="/src/js/catalogo.js"></script>
+  </head>
+  <body>
+    <header id="main-header"></header>
+
+    <main>
+      <section class="catalog-section">
+        <a
+          href="/pages/accesorios.html"
+          class="btn-back"
+          aria-label="Volver a Accesorios"
+        >
+          <i class="fa-solid fa-arrow-left"></i>
+        </a>
+
+        <div class="catalog-title">
+          <h1>Accesorios para Mujeres</h1>
+          <p>Encuentra los mejores accesorios importados de EE. UU.</p>
+        </div>
+
+        <div
+          id="products-grid"
+          class="products-grid"
+          data-json="/json/accesorios-mujeres.json"
+        ></div>
+      </section>
+    </main>
+
+    <div id="imageModal" class="img-modal">
+      <span class="close-modal">&times;</span>
+      <img alt="Producto ampliado" class="modal-content" id="img01" />
+    </div>
+
+    <div id="modal-container"></div>
+    <div id="whatsapp-container"></div>
+    <footer id="main-footer"></footer>
+  </body>
+</html>
