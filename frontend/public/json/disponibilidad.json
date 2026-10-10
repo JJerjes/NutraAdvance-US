@@ -1,0 +1,32 @@
+{
+  "horario": { "inicio": "09:00", "fin": "21:00", "intervaloMinutos": 30 },
+  "representante": "Agente NutraAdvance",
+  "estaciones": [
+    { "id": "villa_el_salvador", "nombre": "Villa El Salvador" },
+    { "id": "parque_industrial", "nombre": "Parque Industrial" },
+    { "id": "pumacahua", "nombre": "Pumacahua" },
+    { "id": "villa_maria", "nombre": "Villa María" },
+    { "id": "maria_auxiliadora", "nombre": "María Auxiliadora" },
+    { "id": "san_juan", "nombre": "San Juan" },
+    { "id": "atocongo", "nombre": "Atocongo" },
+    { "id": "jorge_chavez", "nombre": "Jorge Chávez" },
+    { "id": "ayacucho", "nombre": "Ayacucho" },
+    { "id": "cabitos", "nombre": "Cabitos" },
+    { "id": "angamos", "nombre": "Angamos" },
+    { "id": "san_borja_sur", "nombre": "San Borja Sur" },
+    { "id": "la_cultura", "nombre": "La Cultura" },
+    { "id": "nicolas_arriola", "nombre": "Nicolás Arriola" },
+    { "id": "gamarra", "nombre": "Gamarra" },
+    { "id": "miguel_grau", "nombre": "Miguel Grau" },
+    { "id": "el_angel", "nombre": "El Ángel" },
+    { "id": "presbitero_maestro", "nombre": "Presbítero Maestro" },
+    { "id": "caja_de_agua", "nombre": "Caja de Agua" },
+    { "id": "piramide_del_sol", "nombre": "Pirámide del Sol" },
+    { "id": "los_jardines", "nombre": "Los Jardines" },
+    { "id": "los_postes", "nombre": "Los Postes" },
+    { "id": "san_carlos", "nombre": "San Carlos" },
+    { "id": "san_martin", "nombre": "San Martín" },
+    { "id": "santa_rosa", "nombre": "Santa Rosa" },
+    { "id": "bayovar", "nombre": "Bayóvar" }
+  ]
+}

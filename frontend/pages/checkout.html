@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finalizar Pedido | NutraAdvance US</title>
+
+    <meta
+      name="description"
+      content="Revisa tu pedido y elige cómo recibirlo: recojo en estación del tren o delivery a domicilio."
+    />
+    <meta name="author" content="NutraAdvance US" />
+    <meta name="robots" content="noindex, follow" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+
+    <link rel="stylesheet" href="/src/css/index.css" />
+    <link rel="stylesheet" href="/src/css/catalogo.css" />
+    <link rel="stylesheet" href="/src/css/checkout.css" />
+    <script type="module" src="/src/js/checkout.js"></script>
+  </head>
+  <body>
+    <header id="main-header"></header>
+
+    <main>
+      <section class="catalog-section checkout-section">
+        <a href="/" class="btn-back" aria-label="Volver al inicio">
+          <i class="fa-solid fa-arrow-left"></i>
+        </a>
+
+        <div class="catalog-title">
+          <h1>Finalizar pedido</h1>
+          <p>Revisa tu pedido y elige cómo quieres recibirlo.</p>
+        </div>
+
+        <p id="empty-cart" class="empty-cart" hidden>
+          Tu carrito está vacío.
+          <a href="/pages/salud.html">Ver catálogo</a>
+        </p>
+
+        <div id="checkout-content" class="checkout-content">
+          <section class="order-summary">
+            <h2>Resumen de tu pedido</h2>
+            <ul id="lista-seleccionados" class="order-list"></ul>
+            <div id="total-precio" class="order-total" aria-live="polite">
+              Total: S/0.00
+            </div>
+          </section>
+
+          <fieldset class="delivery-method">
+            <legend>¿Cómo quieres recibir tu pedido?</legend>
+
+            <label class="method-option">
+              <input type="radio" name="delivery-method" value="estacion" />
+              <span>Recoger en estación del tren</span>
+            </label>
+
+            <label class="method-option">
+              <input type="radio" name="delivery-method" value="delivery" />
+              <span>Delivery a domicilio</span>
+            </label>
+          </fieldset>
+
+          <section id="estacion-section" class="method-section" hidden>
+            <h2>Recoger en estación del tren</h2>
+
+            <form id="contact-form" class="form" novalidate>
+              <fieldset>
+                <legend>Información personal</legend>
+
+                <label for="name">Nombre completo</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  autocomplete="name"
+                  required
+                />
+
+                <label for="dni">DNI</label>
+                <input
+                  type="text"
+                  id="dni"
+                  name="dni"
+                  inputmode="numeric"
+                  maxlength="8"
+                  pattern="\d{8}"
+                  title="Debe contener exactamente 8 dígitos"
+                  required
+                />
+
+                <label for="phone">Teléfono</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  autocomplete="tel"
+                  maxlength="9"
+                  pattern="\d{9}"
+                  title="Debe contener 9 dígitos"
+                  required
+                />
+
+                <label for="email">Correo electrónico</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  autocomplete="email"
+                  required
+                />
+              </fieldset>
+
+              <fieldset>
+                <legend>Datos de entrega</legend>
+
+                <label for="branch">Estación del tren</label>
+                <select id="branch" name="branch" required>
+                  <option value="" disabled selected>
+                    Selecciona una estación
+                  </option>
+                </select>
+
+                <label for="date">Fecha de entrega</label>
+                <input type="date" id="date" name="date" required />
+
+                <label for="hour">Horario de entrega</label>
+                <select id="hour" name="hour" required>
+                  <option value="" disabled selected>
+                    Selecciona una hora
+                  </option>
+                </select>
+
+                <label for="representante">Representante de entrega</label>
+                <input
+                  type="text"
+                  id="representante"
+                  name="representante"
+                  readonly
+                  aria-readonly="true"
+                />
+              </fieldset>
+
+              <button type="submit" class="btn-submit">
+                Revisar mi pedido
+              </button>
+            </form>
+          </section>
+
+          <section id="delivery-section" class="method-section" hidden>
+            <h2>Delivery a domicilio</h2>
+            <p>
+              El delivery se coordina por WhatsApp. Para enviarlo, el pago es
+              <strong>adelantado</strong> (Yape o Plin) antes de salir a
+              entregar.
+            </p>
+            <a
+              id="delivery-whatsapp"
+              class="btn-whatsapp"
+              href="#"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+              Coordinar delivery por WhatsApp
+            </a>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <div id="modal-confirmacion" class="confirm-overlay" hidden>
+      <div
+        class="confirm-card"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="confirm-title"
+      >
+        <i class="fa-solid fa-clipboard-check"></i>
+        <h2 id="confirm-title">Último paso: envía tu pedido</h2>
+        <p>Revisa tus datos y envíalo por WhatsApp para confirmarlo contigo.</p>
+        <div id="resumen-pedido-modal" class="confirm-summary"></div>
+        <a
+          id="enviar-whatsapp"
+          class="btn-whatsapp"
+          href="#"
+          target="_blank"
+          rel="noopener"
+        >
+          <i class="fa-brands fa-whatsapp"></i>
+          Enviar pedido por WhatsApp
+        </a>
+        <button id="btn-cerrar-modal" class="btn-secondary" type="button">
+          Volver y corregir
+        </button>
+      </div>
+    </div>
+
+    <div id="toast-container" class="toast-container"></div>
+    <div id="whatsapp-container"></div>
+    <footer id="main-footer"></footer>
+  </body>
+</html>

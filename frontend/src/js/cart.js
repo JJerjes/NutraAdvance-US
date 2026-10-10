@@ -129,3 +129,16 @@ export function initCart() {
   updateCartModal();
   minimizeCartModal();
 }
+
+export function getCart() {
+  return cart.map((item) => ({ ...item }));
+}
+
+export function getCartTotal() {
+  return cart.reduce((sum, item) => sum + item.precio * item.quantity, 0);
+}
+
+export function clearCart() {
+  cart = [];
+  saveCart();
+}
