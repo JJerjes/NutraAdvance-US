@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nuestros Clientes | NutraAdvance US</title>
+
+    <meta
+      name="description"
+      content="Clientes reales de NutraAdvance US con sus productos importados de EE. UU. Calidad importada para tu bienestar."
+    />
+    <meta name="author" content="NutraAdvance US" />
+    <meta name="robots" content="index, follow" />
+
+    <meta property="og:title" content="Nuestros Clientes | NutraAdvance US" />
+    <meta
+      property="og:description"
+      content="Clientes reales de NutraAdvance US con sus productos importados de EE. UU."
+    />
+    <meta property="og:image" content="/images/meta-img.png" />
+    <meta property="og:site_name" content="NutraAdvance US" />
+    <meta property="og:type" content="website" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+
+    <link rel="stylesheet" href="/src/css/index.css" />
+    <link rel="stylesheet" href="/src/css/catalogo.css" />
+    <link rel="stylesheet" href="/src/css/clientes.css" />
+    <script type="module" src="/src/js/clientes.js"></script>
+  </head>
+  <body>
+    <header id="main-header"></header>
+
+    <main>
+      <section class="catalog-section">
+        <a href="/" class="btn-back" aria-label="Volver al inicio">
+          <i class="fa-solid fa-arrow-left"></i>
+        </a>
+
+        <div class="catalog-title">
+          <h1>Nuestros Clientes</h1>
+          <p>Ventas reales, entregadas con confianza.</p>
+        </div>
+
+        <div
+          id="months-container"
+          class="months-container"
+          data-json="/json/clientes.json"
+        ></div>
+      </section>
+    </main>
+
+    <div id="imageModal" class="img-modal">
+      <span class="close-modal">&times;</span>
+      <img alt="Foto ampliada" class="modal-content" id="img01" />
+    </div>
+
+    <div id="whatsapp-container"></div>
+    <footer id="main-footer"></footer>
+  </body>
+</html>

@@ -1,0 +1,102 @@
+.months-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.month-card {
+  overflow: hidden;
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+
+  & summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 16px 20px;
+    background: #07173e;
+    color: white;
+    cursor: pointer;
+    list-style: none;
+    transition: background-color 0.2s ease;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &::after {
+      content: '+';
+      font-size: 1.4rem;
+      line-height: 1;
+    }
+
+    &:hover {
+      background: #0d2461;
+    }
+
+    & .month-name {
+      flex-grow: 1;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+
+    & .month-count {
+      font-size: 0.75rem;
+      opacity: 0.8;
+    }
+  }
+
+  &[open] summary::after {
+    content: '−';
+  }
+
+  & .photos-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    padding: 16px;
+  }
+
+  & .client-photo {
+    margin: 0;
+
+    & img {
+      width: 100%;
+      aspect-ratio: 1;
+      object-fit: cover;
+      border-radius: 8px;
+      cursor: zoom-in;
+      transition: opacity 0.2s ease;
+
+      &:hover {
+        opacity: 0.9;
+      }
+    }
+
+    & figcaption {
+      margin-top: 6px;
+      font-size: 0.75rem;
+      text-align: center;
+      color: #444;
+    }
+  }
+}
+
+/* RESPONSIVE - Mobile First (min-width) */
+
+@media (min-width: 768px) {
+  .month-card .photos-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .month-card .photos-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

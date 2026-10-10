@@ -1,5 +1,5 @@
 import { loadComponent } from './componentLoader.js';
-import { loadLayout } from './layout.js'; 
+import { loadLayout } from './layout.js';
 
 document.addEventListener('DOMContentLoaded', async () => {
   loadLayout();

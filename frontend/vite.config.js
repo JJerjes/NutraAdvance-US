@@ -21,7 +21,7 @@ export default defineConfig({
         accesorios: resolve(__dirname, 'pages/accesorios.html'),
         accesoriosHombres: resolve(__dirname, 'pages/accesorios-hombres.html'),
         accesoriosMujeres: resolve(__dirname, 'pages/accesorios-mujeres.html'),
-        // clientes: resolve(__dirname, 'pages/clientes.html'),
+        clientes: resolve(__dirname, 'pages/clientes.html'),
         // checkout: resolve(__dirname, 'pages/checkout.html'),
       },
     },
