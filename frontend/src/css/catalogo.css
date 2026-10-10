@@ -8,17 +8,14 @@
     align-items: center;
     justify-content: center;
     width: 42px;
-    height: 42px;
     position: fixed;
-    left: 0px;
-    top: 120px;
-    z-index: 1000;
+    height: 42px;
+    left: 5px;
     border-radius: 8px;
-    background-color: #118d11;
+    background-color: #127d12;
     color: white;
     text-decoration: none;
-    transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.6s ease;
 
     &:hover {
       background-color: #07173e;
@@ -34,17 +31,15 @@
     text-align: center;
 
     & h1 {
-      font-size: 1.7rem;
-      font-family: 'Montserrat',sans-serif;
-      font-weight: 500;
+      font-size: 1.6rem;
       color: #07173e;
-      margin-bottom: 5px;
-      
+      font-weight: 500;
+      margin-bottom: 1px;
+      font-family: 'Montserrat', sans-serif;
     }
 
     & p {
       font-size: 0.9rem;
-      
       color: #666;
     }
   }
@@ -89,12 +84,10 @@
 
     & h3 {
       margin-bottom: 5px;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 1.2rem;
-      font-weight: 500;
+      font-size: 0.95rem;
+      font-weight: 600;
       text-align: start;
       color: #07173e;
-      padding: 10px;
     }
 
     & p {
@@ -108,9 +101,8 @@
     & .price-container {
       display: flex;
       flex-direction: column;
-      text-align: start;
+      text-align: end;
       font-weight: 500;
-      padding: 10px 0;
       color: orangered;
 
       & .original-price {
@@ -139,7 +131,7 @@
         transform 0.1s ease;
 
       &:hover {
-        background-color: #118d11;
+        background-color: #127d12;
       }
 
       &:active {

@@ -2,22 +2,22 @@
   {
     "id": "mujer-1",
     "nombre": "VESTIDO CALVIN KLEIN",
-    "descripcion": "✔️ Color: Verde Esmeralda / Turquesa. <br>✔️ Talla: 8 (M).<br>✔️ Detalle: Cuello cuadrado con vuelos.",
+    "descripcion": "✔️ Color: Verde Esmeralda / Turquesa.<br>✔️ Talla: 8 (M).<br>✔️ Detalle: Cuello cuadrado con vuelos.",
     "precio": {
       "original": 450,
       "oferta": 400
     },
-    "imagen": "/images/accesorios-mujeres/one.png"
+    "imagen": "/images/accesorios-mujeres/one.webp"
   },
   {
     "id": "mujer-2",
     "nombre": "VESTIDO TOMMY HILFIGER",
-    "descripcion": "✔️ Color: Azul Marino (Navy). 2.<br>✔️ Talla: 6(M).<br>✔️ Detalle: Cierres metálicos dorados en la cintura Y corte sin mangas.",
+    "descripcion": "✔️ Color: Azul Marino (Navy).<br>✔️ Talla: 6(M).<br>✔️ Detalle: Cierres metálicos dorados en la cintura Y corte sin mangas.",
     "precio": {
       "original": 450,
       "oferta": 400
     },
-    "imagen": "/images/accesorios-mujeres/two.png"
+    "imagen": "/images/accesorios-mujeres/two.webp"
   },
   {
     "id": "mujer-3",
@@ -27,17 +27,17 @@
       "original": 450,
       "oferta": 400
     },
-    "imagen": "/images/accesorios-mujeres/three.png"
+    "imagen": "/images/accesorios-mujeres/three.webp"
   },
   {
     "id": "mujer-4",
     "nombre": "VESTIDO CALVIN KLEIN",
-    "descripcion": "✔️Color: Azul Marino(Navy).<br>✔️ Talla: 4(S).<br>✔️ Detalle: Escote en V, mangas abullonadas y faldón fluido en A.",
+    "descripcion": "✔️ Color: Azul Marino(Navy).<br>✔️ Talla: 4(S).<br>✔️ Detalle: Escote en V, mangas abullonadas y faldón fluido en A.",
     "precio": {
       "original": 450,
       "oferta": 400
     },
-    "imagen": "/images/accesorios-mujeres/four.png"
+    "imagen": "/images/accesorios-mujeres/four.webp"
   },
   {
     "id": "mujer-5",
@@ -47,26 +47,56 @@
       "original": 450,
       "oferta": 400
     },
-    "imagen": "/images/accesorios-mujeres/five.png"
+    "imagen": "/images/accesorios-mujeres/five.webp"
   },
   {
     "id": "mujer-6",
     "nombre": "VESTIDO TOMMY HILFIGER",
-    "descripcion": "✔️ Color: Negro Azul Marino (Navy).<br>✔️ Talla: 8(M).<br>✔️ Detalle: Corte recto sin mangas con botones dorados laterales.",
+    "descripcion": "✔️ Color: Negro Azul Marino (Navy).✔️ Talla: 8(M).<br>✔️ Detalle: Corte recto sin mangas con botones dorados laterales.",
     "precio": {
       "original": 450,
       "oferta": 400
     },
-    "imagen": "/images/accesorios-mujeres/six.png"
+    "imagen": "/images/accesorios-mujeres/six.webp"
   },
   {
     "id": "mujer-7",
     "nombre": "BANDOLERA TOMMY HILFIGER",
-    "descripcion": "✔️ Color: Rojo Oscuro / Vino con detalles dorados.<br>✔️ Detalle: Herrajes metálicos dorados y logo TH al frente.",
+    "descripcion": "✔️Color: Rojo Oscuro / Vino con detalles dorados.<br>✔️ Detalle: Herrajes metálicos dorados y logo TH al frente.",
     "precio": {
       "original": 450,
       "oferta": 400
     },
-    "imagen": "/images/accesorios-mujeres/seven.png"
+    "imagen": "/images/accesorios-mujeres/seven.webp"
+  },
+  {
+    "id": "mujer-8",
+    "nombre": "MOCHILA MICHAEL KORS",
+    "descripcion": "✔️Color: Negro con herrajes dorados.<br>✔️ Detalle: Cierre de solapa con broche magnético y tirantes ajustables.",
+    "precio": {
+      "original": 1100,
+      "oferta": 800
+    },
+    "imagen": "/images/accesorios-mujeres/eight.webp"
+  },
+  {
+    "id": "mujer-9",
+    "nombre": "CARTERA TOMMY HILFIGER",
+    "descripcion": "✔️ Diseño clásico tipo bandolera (crossbody).<br>✔️ Color: Marrón terracota con detalles de costura.<br>✔️ Detalle: Herraje frontal metálico con monograma TH y correa ajustable.",
+    "precio": {
+      "original": 320,
+      "oferta": 280
+    },
+    "imagen": "/images/accesorios-mujeres/nine.webp"
+  },
+  {
+    "id": "mujer-10",
+    "nombre": "BANDOLERA TOMMY HILFIGER",
+    "descripcion": "✔️Estampado integral con monograma clásico TH.<br>✔️Color: Azul con herrajes dorados.<br>✔️ Detalle: Cierre superior con zíper y correa ajustable para el hombro.",
+    "precio": {
+      "original": 280,
+      "oferta": 230
+    },
+    "imagen": "/images/accesorios-mujeres/ten.webp"
   }
 ]

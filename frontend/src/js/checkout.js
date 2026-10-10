@@ -45,6 +45,8 @@ document.addEventListener('DOMContentLoaded', () => {
   document
     .querySelectorAll('input[name="delivery-method"]')
     .forEach((radio) =>
-      radio.addEventListener('change', (event) => showMethod(event.target.value))
+      radio.addEventListener('change', (event) =>
+        showMethod(event.target.value)
+      )
     );
 });

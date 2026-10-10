@@ -241,7 +241,7 @@
   border-radius: 12px;
   text-align: center;
 
-  &>i {
+  & > i {
     font-size: 2.2rem;
     color: #32cd32;
   }
@@ -305,7 +305,6 @@
 /* RESPONSIVE - Mobile First (min-width) */
 
 @media (min-width: 768px) {
-
   .order-summary,
   .method-section {
     padding: 28px;
