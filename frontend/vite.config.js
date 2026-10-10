@@ -17,7 +17,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         // notFound: resolve(__dirname, '404.html'),
-        // salud: resolve(__dirname, 'pages/salud.html'),
+        salud: resolve(__dirname, 'pages/salud.html'),
         // accesorios: resolve(__dirname, 'pages/accesorios.html'),
         // accesoriosHombres: resolve(__dirname, 'pages/accesorios-hombres.html'),
         // accesoriosMujeres: resolve(__dirname, 'pages/accesorios-mujeres.html'),

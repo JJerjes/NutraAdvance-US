@@ -1,12 +1,7 @@
 import { loadComponent } from './componentLoader.js';
+import { loadLayout } from './layout.js'; 
 
 document.addEventListener('DOMContentLoaded', async () => {
-  loadComponent('main-header', '/partials/header.html');
+  loadLayout();
   loadComponent('main-content', '/partials/main-hero.html');
-  await loadComponent('main-footer', '/partials/footer.html');
-
-  const yearSpan = document.getElementById('current-year');
-  if (yearSpan) {
-    yearSpan.textContent = new Date().getFullYear();
-  }
 });
