@@ -8,12 +8,14 @@
     align-items: center;
     justify-content: center;
     width: 42px;
+    position: fixed;
     height: 42px;
+    left: 5px;
     border-radius: 8px;
-    background-color: #32cd32;
+    background-color: #127d12;
     color: white;
     text-decoration: none;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.6s ease;
 
     &:hover {
       background-color: #07173e;
@@ -31,6 +33,9 @@
     & h1 {
       font-size: 1.6rem;
       color: #07173e;
+      font-weight: 500;
+      margin-bottom: 1px;
+      font-family: 'Montserrat', sans-serif;
     }
 
     & p {
@@ -81,7 +86,7 @@
       margin-bottom: 5px;
       font-size: 0.95rem;
       font-weight: 600;
-      text-align: center;
+      text-align: start;
       color: #07173e;
     }
 
@@ -122,11 +127,11 @@
       font-weight: 500;
       cursor: pointer;
       transition:
-        background-color 0.2s ease,
+        background-color 0.5s ease,
         transform 0.1s ease;
 
       &:hover {
-        background-color: #32cd32;
+        background-color: #127d12;
       }
 
       &:active {
