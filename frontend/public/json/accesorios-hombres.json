@@ -5,7 +5,7 @@
     "descripcion": "✔️ Diseño clásico trucker de mezclilla.<br>✔️ Color: Denim azul clásico con efecto deslavado.<br>✔️ Talla: L (Disponible en stock limitado).<br>✔️ Importado de EE. UU.",
     "precio": {
       "original": 280,
-      "oferta": 220
+      "oferta": 219.99
     },
     "imagen": "/images/accesorios-hombres/one-man.webp"
   },
@@ -15,7 +15,7 @@
     "descripcion": "✔️ Estilo henley con botones frontales.<br>✔️ Color: Negro con texto bordado 'Guess Denim Los Angeles'.<br>✔️ Talla: M / L.<br>✔️ Importado de EE. UU.",
     "precio": {
       "original": 160,
-      "oferta": 130
+      "oferta": 129.99
     },
     "imagen": "/images/accesorios-hombres/two-man.webp"
   },
@@ -25,17 +25,17 @@
     "descripcion": "✔️ Estilo urbano con detalles de parches y costuras decorativas.<br>✔️ Color: Denim azul medio deslavado.<br>✔️ Talla: 30 / 32.<br>✔️ Importado de EE. UU.",
     "precio": {
       "original": 220,
-      "oferta": 179
+      "oferta": 179.99
     },
     "imagen": "/images/accesorios-hombres/three-man.webp"
   },
   {
     "id": "hombres-4",
     "nombre": "CASACA CON CAPUCHA GUESS",
-    "descripcion": "✔️ Diseño con cierre completo y bandas laterales con el logotipo Guess.<br>✔️ Color: Negro con detalles impresos en tono dorado.<br>✔️ Talla: M / L.<br>✔️ Importado de EE. UU.",
+    "descripcion": "✔️ Diseño con cierre completo y bandas laterales con el logotipo Guess.<br>✔️ Color: Negro con detalles impresos en tono dorado.<br>✔️ Talla: S.<br>✔️ Importado de EE. UU.",
     "precio": {
       "original": 320,
-      "oferta": 259
+      "oferta": 259.99
     },
     "imagen": "/images/accesorios-hombres/four-man.webp"
   },
@@ -44,8 +44,8 @@
     "nombre": "POLO BÁSICO DKNY CON BOLSILLO",
     "descripcion": "✔️ Estilo casual con bolsillo frontal en el pecho.<br>✔️ Color: Marrón arena / caqui versátil.<br>✔️ Talla: M / L.<br>✔️ Importado de EE. UU.",
     "precio": {
-      "original": 150,
-      "oferta": 120
+      "original": 180,
+      "oferta": 139.99
     },
     "imagen": "/images/accesorios-hombres/five-man.webp"
   },
@@ -55,7 +55,7 @@
     "descripcion": "✔️ Diseño de manga larga con cinta lateral estampada de la marca.<br>✔️ Color: Negro con logotipo triangular bordado en el pecho.<br>✔️ Talla: M / L.<br>✔️ Importado de EE. UU.",
     "precio": {
       "original": 160,
-      "oferta": 130
+      "oferta": 129.99
     },
     "imagen": "/images/accesorios-hombres/six-man.webp"
   },
@@ -65,7 +65,7 @@
     "descripcion": "✔️ Estilo urbano con efecto de lavado vintage.<br>✔️ Color: Verde oscuro con logotipo frontal en relieve.<br>✔️ Talla: M / L.<br>✔️ Importado de EE. UU.",
     "precio": {
       "original": 150,
-      "oferta": 120
+      "oferta": 119.99
     },
     "imagen": "/images/accesorios-hombres/seven-man.webp"
   },
@@ -74,9 +74,19 @@
     "nombre": "POLO BLANCO GUESS CON BANDA DE MALLA",
     "descripcion": "✔️ Diseño casual con banda central texturizada de malla[cite: 12].<br>✔️ Color: Blanco con detalles en contraste.<br>✔️ Talla: M / L.<br>✔️ Importado de EE. UU.",
     "precio": {
-      "original": 150,
-      "oferta": 120
+      "original": 220,
+      "oferta": 179.99
     },
     "imagen": "/images/accesorios-hombres/eight-man.webp"
+  },
+  {
+    "id": "hombres-9",
+    "nombre": "BILLETERA MICHAEL KORS",
+    "descripcion": "✔️ Estilo Slim Billfold de diseño delgado y elegante.<br>✔️ Color: Negro con monograma MK texturizado.<br>✔️ Incluye caja original de presentación (Ideal para regalo).<br>✔️ 100% importado de EE. UU.",
+    "precio": {
+      "original": 340,
+      "oferta": 279.99
+    },
+    "imagen": "/images/accesorios-hombres/nine-man.webp"
   }
 ]

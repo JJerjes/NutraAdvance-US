@@ -5,7 +5,7 @@
     "descripcion": "✔️ Color: Verde Esmeralda / Turquesa.<br>✔️ Talla: 8 (M).<br>✔️ Detalle: Cuello cuadrado con vuelos.",
     "precio": {
       "original": 450,
-      "oferta": 400
+      "oferta": 399.99
     },
     "imagen": "/images/accesorios-mujeres/one.webp"
   },
@@ -14,8 +14,8 @@
     "nombre": "VESTIDO TOMMY HILFIGER",
     "descripcion": "✔️ Color: Azul Marino (Navy).<br>✔️ Talla: 6(M).<br>✔️ Detalle: Cierres metálicos dorados en la cintura Y corte sin mangas.",
     "precio": {
-      "original": 450,
-      "oferta": 400
+      "original": 340,
+      "oferta": 299.99
     },
     "imagen": "/images/accesorios-mujeres/two.webp"
   },
@@ -24,8 +24,8 @@
     "nombre": "VESTIDO TOMMY HILFIGER",
     "descripcion": "✔️ Color: Azul Marino con detalles Verde y Blanco.<br>✔️ Talla: 10(L).<br>✔️ Detalle: Corte estilizado sin mangas con franja entallada y falda cruzada.",
     "precio": {
-      "original": 450,
-      "oferta": 400
+      "original": 340,
+      "oferta": 299.99
     },
     "imagen": "/images/accesorios-mujeres/three.webp"
   },
@@ -35,7 +35,7 @@
     "descripcion": "✔️ Color: Azul Marino(Navy).<br>✔️ Talla: 4(S).<br>✔️ Detalle: Escote en V, mangas abullonadas y faldón fluido en A.",
     "precio": {
       "original": 450,
-      "oferta": 400
+      "oferta": 399.99
     },
     "imagen": "/images/accesorios-mujeres/four.webp"
   },
@@ -45,7 +45,7 @@
     "descripcion": "✔️ Color: Negro (Classic Black).<br>✔️ Talla: 10(L).<br>✔️ Detalle: Cuello halter con tiras cruzadas y silueta entallada.",
     "precio": {
       "original": 450,
-      "oferta": 400
+      "oferta": 399.99
     },
     "imagen": "/images/accesorios-mujeres/five.webp"
   },
@@ -54,8 +54,8 @@
     "nombre": "VESTIDO TOMMY HILFIGER",
     "descripcion": "✔️ Color: Negro Azul Marino (Navy).✔️ Talla: 8(M).<br>✔️ Detalle: Corte recto sin mangas con botones dorados laterales.",
     "precio": {
-      "original": 450,
-      "oferta": 400
+      "original": 440,
+      "oferta": 399.99
     },
     "imagen": "/images/accesorios-mujeres/six.webp"
   },
@@ -64,8 +64,8 @@
     "nombre": "BANDOLERA TOMMY HILFIGER",
     "descripcion": "✔️Color: Rojo Oscuro / Vino con detalles dorados.<br>✔️ Detalle: Herrajes metálicos dorados y logo TH al frente.",
     "precio": {
-      "original": 450,
-      "oferta": 400
+      "original": 300,
+      "oferta": 269.99
     },
     "imagen": "/images/accesorios-mujeres/seven.webp"
   },
@@ -75,7 +75,7 @@
     "descripcion": "✔️Color: Negro con herrajes dorados.<br>✔️ Detalle: Cierre de solapa con broche magnético y tirantes ajustables.",
     "precio": {
       "original": 1100,
-      "oferta": 800
+      "oferta": 949.99
     },
     "imagen": "/images/accesorios-mujeres/eight.webp"
   },
@@ -84,8 +84,8 @@
     "nombre": "CARTERA TOMMY HILFIGER",
     "descripcion": "✔️ Diseño clásico tipo bandolera (crossbody).<br>✔️ Color: Marrón terracota con detalles de costura.<br>✔️ Detalle: Herraje frontal metálico con monograma TH y correa ajustable.",
     "precio": {
-      "original": 320,
-      "oferta": 280
+      "original": 340,
+      "oferta": 269.99
     },
     "imagen": "/images/accesorios-mujeres/nine.webp"
   },
@@ -95,7 +95,7 @@
     "descripcion": "✔️Estampado integral con monograma clásico TH.<br>✔️Color: Azul con herrajes dorados.<br>✔️ Detalle: Cierre superior con zíper y correa ajustable para el hombro.",
     "precio": {
       "original": 280,
-      "oferta": 230
+      "oferta": 249.99
     },
     "imagen": "/images/accesorios-mujeres/ten.webp"
   }
