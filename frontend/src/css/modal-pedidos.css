@@ -1,4 +1,4 @@
-.cart-modal-container {
+/* .cart-modal-container {
   position: fixed;
   inset: 0;
   z-index: 10000;
@@ -130,6 +130,193 @@
 
   &:hover {
     background-color: #07173e;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+} */
+
+
+
+/* Modal de Carrito - Estilos NutraAdvance US (Limpio de !important) */
+div.cart-modal-container {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(4px);
+  font-family: 'Montserrat', sans-serif;
+
+  & .modal-content-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: min(100%, 380px);
+    height: 100%;
+    padding: 24px 20px;
+    background: #ffffff;
+    box-shadow: -8px 0 25px rgba(0, 0, 0, 0.15);
+    animation: slideInRight 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+
+  & .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+    border-bottom: 2px solid #07173e;
+
+    & h2 {
+      margin: 0;
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #07173e;
+      letter-spacing: -0.3px;
+    }
+  }
+
+  & button.minimize-btn {
+    border: none;
+    background: #f1f5f9;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: #475569;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    &:hover {
+      background: #e2e8f0;
+      color: #07173e;
+      transform: scale(1.05);
+    }
+  }
+
+  & .cart-items {
+    flex-grow: 1;
+    margin: 15px 0;
+    padding-right: 5px;
+    overflow-y: auto;
+
+    &::-webkit-scrollbar {
+      width: 4px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 4px;
+    }
+  }
+
+  & .cart-item-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 0;
+    border-bottom: 1px solid #f1f5f9;
+    font-size: 0.88rem;
+    line-height: 1.5;
+    color: #1e293b;
+
+    & strong {
+      color: #07173e;
+      font-weight: 600;
+    }
+  }
+
+  & button.remove-item-btn {
+    border: none;
+    background: none;
+    padding: 6px;
+    font-size: 2.5rem;
+    color: #ef4444;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+
+    &:hover {
+      background-color: #fef2f2;
+      color: #dc2626;
+    }
+  }
+
+  & .modal-footer {
+    padding-top: 16px;
+    border-top: 1px solid #e2e8f0;
+
+    & h3 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 0 16px 0;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #07173e;
+    }
+  }
+
+  & button.btn-checkout {
+    width: 100%;
+    padding: 14px 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: #07173e;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(7, 23, 62, 0.2);
+    transition: all 0.2s ease;
+
+    &:hover {
+      background-color: #0d255d;
+      box-shadow: 0 6px 16px rgba(7, 23, 62, 0.3);
+      transform: translateY(-1px);
+    }
+
+    &:active {
+      transform: translateY(0);
+    }
+  }
+}
+
+div.cart-toggle-tab {
+  position: fixed;
+  top: 35%;
+  right: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 16px;
+  border-radius: 10px 0 0 10px;
+  background-color: #07173e;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.88rem;
+  box-shadow: -4px 4px 15px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: #0d255d;
+    padding-right: 20px;
   }
 }
 

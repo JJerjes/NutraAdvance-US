@@ -81,7 +81,7 @@
     & figcaption {
       margin-top: 6px;
       font-size: 0.75rem;
-      text-align: center;
+      text-align: start;
       color: #444;
     }
   }
