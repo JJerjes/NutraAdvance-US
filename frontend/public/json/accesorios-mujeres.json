@@ -2,17 +2,17 @@
   {
     "id": "mujer-1",
     "nombre": "VESTIDO CALVIN KLEIN",
-    "descripcion": "✔️ Color: Verde Esmeralda / Turquesa.<br>✔️ Talla: 8 (M).<br>✔️ Detalle: Cuello cuadrado con vuelos.",
+    "descripcion": "✔️ Color: Verde Esmeralda / Turquesa<br>✔️ Talla: 8 - (M)<br>✔️ Detalle: Cuello cuadrado con vuelos",
     "precio": {
       "original": 450,
       "oferta": 399.99
     },
-    "imagen": "/images/accesorios-mujeres/one.webp"
+    "imagen": "/images/accesorios-mujeres/one.jpg"
   },
   {
     "id": "mujer-2",
     "nombre": "VESTIDO TOMMY HILFIGER",
-    "descripcion": "✔️ Color: Azul Marino (Navy).<br>✔️ Talla: 6(M).<br>✔️ Detalle: Cierres metálicos dorados en la cintura Y corte sin mangas.",
+    "descripcion": "✔️ Color: Azul Marino<br>✔️ Talla: 6 - (M)<br>✔️ Detalle: Cierres metálicos dorados en la cintura Y corte sin mangas",
     "precio": {
       "original": 340,
       "oferta": 299.99
@@ -22,7 +22,7 @@
   {
     "id": "mujer-3",
     "nombre": "VESTIDO TOMMY HILFIGER",
-    "descripcion": "✔️ Color: Azul Marino con detalles Verde y Blanco.<br>✔️ Talla: 10(L).<br>✔️ Detalle: Corte estilizado sin mangas con franja entallada y falda cruzada.",
+    "descripcion": "✔️ Color: Azul Marino con detalles Verde y Blanco<br>✔️ Talla: 10 - (L)<br>✔️ Detalle: Corte estilizado sin mangas con franja entallada y falda cruzada",
     "precio": {
       "original": 340,
       "oferta": 299.99
@@ -32,7 +32,7 @@
   {
     "id": "mujer-4",
     "nombre": "VESTIDO CALVIN KLEIN",
-    "descripcion": "✔️ Color: Azul Marino(Navy).<br>✔️ Talla: 4(S).<br>✔️ Detalle: Escote en V, mangas abullonadas y faldón fluido en A.",
+    "descripcion": "✔️ Color: Azul Marino<br>✔️ Talla: 4 - (S)<br>✔️ Detalle: Escote en V, mangas abullonadas y faldón fluido en A",
     "precio": {
       "original": 450,
       "oferta": 399.99
@@ -42,7 +42,7 @@
   {
     "id": "mujer-5",
     "nombre": "VESTIDO GUESS",
-    "descripcion": "✔️ Color: Negro (Classic Black).<br>✔️ Talla: 10(L).<br>✔️ Detalle: Cuello halter con tiras cruzadas y silueta entallada.",
+    "descripcion": "✔️ Color: Negro clasico<br>✔️ Talla: 10 - (L)<br>✔️ Detalle: Cuello halter con tiras cruzadas y silueta entallada",
     "precio": {
       "original": 450,
       "oferta": 399.99
@@ -52,7 +52,7 @@
   {
     "id": "mujer-6",
     "nombre": "VESTIDO TOMMY HILFIGER",
-    "descripcion": "✔️ Color: Negro Azul Marino (Navy).✔️ Talla: 8(M).<br>✔️ Detalle: Corte recto sin mangas con botones dorados laterales.",
+    "descripcion": "✔️ Color: Azul Marino<br>✔️ Talla: 8 - (M)<br>✔️ Detalle: Corte recto sin mangas con botones dorados laterales",
     "precio": {
       "original": 440,
       "oferta": 399.99
@@ -62,7 +62,7 @@
   {
     "id": "mujer-7",
     "nombre": "BANDOLERA TOMMY HILFIGER",
-    "descripcion": "✔️Color: Rojo Oscuro / Vino con detalles dorados.<br>✔️ Detalle: Herrajes metálicos dorados y logo TH al frente.",
+    "descripcion": "✔️Color: Rojo Oscuro / Vino con detalles dorados<br>✔️ Detalle: Herrajes metálicos dorados y logo TH al frente",
     "precio": {
       "original": 300,
       "oferta": 269.99
@@ -72,17 +72,17 @@
   {
     "id": "mujer-8",
     "nombre": "MOCHILA MICHAEL KORS",
-    "descripcion": "✔️Color: Negro con herrajes dorados.<br>✔️ Detalle: Cierre de solapa con broche magnético y tirantes ajustables.",
+    "descripcion": "✔️Color: Negro con herrajes dorados<br>✔️ Detalle: Cierre de solapa con broche magnético y tirantes ajustables",
     "precio": {
       "original": 1100,
-      "oferta": 949.99
+      "oferta": 849.99
     },
     "imagen": "/images/accesorios-mujeres/eight.webp"
   },
   {
     "id": "mujer-9",
     "nombre": "CARTERA TOMMY HILFIGER",
-    "descripcion": "✔️ Diseño clásico tipo bandolera (crossbody).<br>✔️ Color: Marrón terracota con detalles de costura.<br>✔️ Detalle: Herraje frontal metálico con monograma TH y correa ajustable.",
+    "descripcion": "✔️ Diseño clásico tipo bandolera (crossbody)<br>✔️ Color: Marrón terracota con detalles de costura<br>✔️ Detalle: Herraje frontal metálico con monograma TH y correa ajustable",
     "precio": {
       "original": 340,
       "oferta": 269.99
@@ -92,7 +92,7 @@
   {
     "id": "mujer-10",
     "nombre": "BANDOLERA TOMMY HILFIGER",
-    "descripcion": "✔️Estampado integral con monograma clásico TH.<br>✔️Color: Azul con herrajes dorados.<br>✔️ Detalle: Cierre superior con zíper y correa ajustable para el hombro.",
+    "descripcion": "✔️Estampado integral con monograma clásico TH<br>✔️Color: Azul con herrajes dorados<br>✔️ Detalle: Cierre superior con zíper y correa ajustable para el hombro",
     "precio": {
       "original": 280,
       "oferta": 249.99
