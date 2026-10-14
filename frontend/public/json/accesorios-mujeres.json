@@ -107,7 +107,7 @@
       "original": 280,
       "oferta": 249.99
     },
-    "imagen": "/images/vestidos-mujeres/eleven.jpg"
+    "imagen": "/images/accesorios-mujeres/eleven.jpg"
   },
   {
     "id": "mujer-12",
@@ -117,6 +117,6 @@
       "original": 320,
       "oferta": 289.99
     },
-    "imagen": "/images/vestidos-mujeres/twelve.png"
+    "imagen": "/images/accesorios-mujeres/twelve.png"
   }
 ]
