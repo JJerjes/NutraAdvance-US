@@ -7,7 +7,7 @@
       "original": 450,
       "oferta": 399.99
     },
-    "imagen": "/images/accesorios-mujeres/one.jpg"
+    "imagen": "/images/accesorios-mujeres/one.png"
   },
   {
     "id": "mujer-2",
@@ -62,7 +62,7 @@
   {
     "id": "mujer-7",
     "nombre": "BANDOLERA TOMMY HILFIGER",
-    "descripcion": "✔️Color: Rojo Oscuro / Vino con detalles dorados<br>✔️ Detalle: Herrajes metálicos dorados y logo TH al frente",
+    "descripcion": "✔️ Color: Rojo Oscuro / Vino con detalles dorados<br>✔️ Detalle: Herrajes metálicos dorados y logo TH al frente",
     "precio": {
       "original": 300,
       "oferta": 269.99
@@ -72,7 +72,7 @@
   {
     "id": "mujer-8",
     "nombre": "MOCHILA MICHAEL KORS",
-    "descripcion": "✔️Color: Negro con herrajes dorados<br>✔️ Detalle: Cierre de solapa con broche magnético y tirantes ajustables",
+    "descripcion": "✔️ Color: Negro con herrajes dorados<br>✔️ Detalle: Cierre de solapa con broche magnético y tirantes ajustables",
     "precio": {
       "original": 1100,
       "oferta": 849.99
@@ -92,7 +92,7 @@
   {
     "id": "mujer-10",
     "nombre": "BANDOLERA TOMMY HILFIGER",
-    "descripcion": "✔️Estampado integral con monograma clásico TH<br>✔️Color: Azul con herrajes dorados<br>✔️ Detalle: Cierre superior con zíper y correa ajustable para el hombro",
+    "descripcion": "✔️ Estampado integral con monograma clásico TH<br>✔️ Color: Azul con herrajes dorados<br>✔️ Detalle: Cierre superior con zíper y correa ajustable para el hombro",
     "precio": {
       "original": 280,
       "oferta": 249.99
@@ -100,24 +100,23 @@
     "imagen": "/images/accesorios-mujeres/ten.webp"
   },
   {
-  "id": "mujer-11",
-  "nombre": "VESTIDO CASUAL MNG BEIGE",
-  "descripcion": "✔️Color: Beige claro / Neutro<br>✔️Talla: 2 - (S)<br>✔️Detalle: Cuello en V, abotonado frontal con botones aspecto amaderado y cinturón a juego con hebilla circular",
-  "precio": {
-    "original": 280,
-    "oferta": 249.99
+    "id": "mujer-11",
+    "nombre": "VESTIDO CASUAL STUDIO ONE",
+    "descripcion": "✔️ Color: Beige claro / Neutro<br>✔️ Talla: 2 - (S)<br>✔️ Detalle: Cuello en V, abotonado frontal con botones aspecto amaderado y cinturón a juego con hebilla circular",
+    "precio": {
+      "original": 280,
+      "oferta": 249.99
+    },
+    "imagen": "/images/vestidos-mujeres/eleven.jpg"
   },
-  "imagen": "/images/vestidos-mujeres/eleven.jpg"
-},
-{
-  "id": "mujer-12",
-  "nombre": "CONJUNTO VESTIDO Y SACO STUDIO ONE",
-  "descripcion": "✔️Marca: Studio One New York<br>✔️Talla: 12 - (L)<br>✔️Color: Negro y blanco con patrón pata de gallo (Houndstooth)<br>✔️Detalle: Conjunto elegante de 2 piezas que incluye saco corto abierto de manga 3/4 y vestido entallado de corte formal",
-  "precio": {
-    "original": 320,
-    "oferta": 289.99
-  },
-  "imagen": "/images/vestidos-mujeres/twelve.png"
-}
-
+  {
+    "id": "mujer-12",
+    "nombre": "CONJUNTO VESTIDO Y SACO STUDIO ONE",
+    "descripcion": "✔️ Marca: Studio One New York<br>✔️ Talla: 12 - (L)<br>✔️ Color: Negro y blanco con patrón pata de gallo (Houndstooth)<br>✔️ Detalle: Conjunto elegante de 2 piezas que incluye saco corto abierto de manga 3/4 y vestido entallado de corte formal",
+    "precio": {
+      "original": 320,
+      "oferta": 289.99
+    },
+    "imagen": "/images/vestidos-mujeres/twelve.png"
+  }
 ]
