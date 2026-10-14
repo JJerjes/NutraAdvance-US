@@ -98,5 +98,26 @@
       "oferta": 249.99
     },
     "imagen": "/images/accesorios-mujeres/ten.webp"
-  }
+  },
+  {
+  "id": "mujer-11",
+  "nombre": "VESTIDO CASUAL MNG BEIGE",
+  "descripcion": "✔️Color: Beige claro / Neutro<br>✔️Talla: 2 - (S)<br>✔️Detalle: Cuello en V, abotonado frontal con botones aspecto amaderado y cinturón a juego con hebilla circular",
+  "precio": {
+    "original": 280,
+    "oferta": 249.99
+  },
+  "imagen": "/images/vestidos-mujeres/eleven.jpg"
+},
+{
+  "id": "mujer-12",
+  "nombre": "CONJUNTO VESTIDO Y SACO STUDIO ONE",
+  "descripcion": "✔️Marca: Studio One New York<br>✔️Talla: 12 - (L)<br>✔️Color: Negro y blanco con patrón pata de gallo (Houndstooth)<br>✔️Detalle: Conjunto elegante de 2 piezas que incluye saco corto abierto de manga 3/4 y vestido entallado de corte formal",
+  "precio": {
+    "original": 320,
+    "oferta": 289.99
+  },
+  "imagen": "/images/vestidos-mujeres/twelve.png"
+}
+
 ]
