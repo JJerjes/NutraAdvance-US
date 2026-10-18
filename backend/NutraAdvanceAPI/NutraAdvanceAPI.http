@@ -1,0 +1,6 @@
+@NutraAdvanceAPI_HostAddress = http://localhost:5286
+
+GET {{NutraAdvanceAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
