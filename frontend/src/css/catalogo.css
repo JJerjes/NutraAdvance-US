@@ -100,19 +100,62 @@
 
     & .price-container {
       display: flex;
-      flex-direction: column;
-      text-align: end;
-      font-weight: 500;
-      color: orangered;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-top: 10px;
 
-      & .original-price {
-        font-size: 0.75rem;
-        color: #888;
-        text-decoration: line-through;
+      & .left-price {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+
+        & .original-price {
+          font-size: 0.75rem;
+          color: #888;
+          text-decoration: line-through;
+        }
+
+        & .current-price-wrapper {
+          display: flex;
+          align-items: center;
+          gap: 4px;
+
+          & .price-label {
+            font-size: 0.75rem;
+            color: #555;
+            font-weight: 500;
+          }
+
+          & .price {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: orangered;
+          }
+        }
       }
 
-      & .price {
-        font-size: 1rem;
+      & .right-stock {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 3px;
+
+        & .stock-badge {
+          font-size: 0.9rem;
+          font-weight: 600;
+          padding: 2px 8px;
+          border-radius: 6px;
+
+          &.in-stock {
+            background-color: #e6f4ea;
+            color: #137333;
+          }
+
+          &.out-of-stock {
+            background-color: #fce8e6;
+            color: #c5221f;
+          }
+        }
       }
     }
 
@@ -130,12 +173,18 @@
         background-color 0.5s ease,
         transform 0.1s ease;
 
-      &:hover {
+      &:hover:not(:disabled) {
         background-color: #127d12;
       }
 
-      &:active {
+      &:active:not(:disabled) {
         transform: scale(0.98);
+      }
+
+      &:disabled {
+        background-color: #888;
+        cursor: not-allowed;
+        opacity: 0.7;
       }
     }
   }

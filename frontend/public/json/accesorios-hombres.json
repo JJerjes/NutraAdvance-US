@@ -7,6 +7,7 @@
       "original": 280,
       "oferta": 219.99
     },
+    "stock": 1,
     "imagen": "/images/accesorios-hombres/one-man.webp"
   },
   {
@@ -17,6 +18,7 @@
       "original": 160,
       "oferta": 129.99
     },
+    "stock": 1,
     "imagen": "/images/accesorios-hombres/two-man.webp"
   },
   {
@@ -27,6 +29,7 @@
       "original": 220,
       "oferta": 179.99
     },
+    "stock": 1,
     "imagen": "/images/accesorios-hombres/three-man.webp"
   },
   {
@@ -37,6 +40,7 @@
       "original": 320,
       "oferta": 229.99
     },
+    "stock": 1,
     "imagen": "/images/accesorios-hombres/four-man.webp"
   },
   {
@@ -47,6 +51,7 @@
       "original": 180,
       "oferta": 139.99
     },
+    "stock": 1,
     "imagen": "/images/accesorios-hombres/five-man.webp"
   },
   {
@@ -57,6 +62,7 @@
       "original": 160,
       "oferta": 129.99
     },
+    "stock": 1,
     "imagen": "/images/accesorios-hombres/six-man.webp"
   },
   {
@@ -67,6 +73,7 @@
       "original": 150,
       "oferta": 119.99
     },
+    "stock": 1,
     "imagen": "/images/accesorios-hombres/seven-man.webp"
   },
   {
@@ -77,6 +84,7 @@
       "original": 220,
       "oferta": 179.99
     },
+    "stock": 1,
     "imagen": "/images/accesorios-hombres/eight-man.webp"
   },
   {
@@ -87,6 +95,7 @@
       "original": 340,
       "oferta": 279.99
     },
+    "stock": 1,
     "imagen": "/images/accesorios-hombres/nine-man.png"
   }
 ]

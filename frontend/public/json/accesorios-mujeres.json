@@ -7,6 +7,7 @@
       "original": 450,
       "oferta": 379.99
     },
+    "stock": 1,
     "imagen": "/images/accesorios-mujeres/one.png"
   },
   {
@@ -17,6 +18,7 @@
       "original": 340,
       "oferta": 339.99
     },
+    "stock": 2,
     "imagen": "/images/accesorios-mujeres/two.webp"
   },
   {
@@ -27,6 +29,7 @@
       "original": 340,
       "oferta": 329.99
     },
+    "stock": 1,
     "imagen": "/images/accesorios-mujeres/three.webp"
   },
   {
@@ -37,6 +40,7 @@
       "original": 450,
       "oferta": 379.99
     },
+    "stock": 1,
     "imagen": "/images/accesorios-mujeres/four.webp"
   },
   {
@@ -47,6 +51,7 @@
       "original": 450,
       "oferta": 389.99
     },
+    "stock": 1,
     "imagen": "/images/accesorios-mujeres/five.webp"
   },
   {
@@ -57,6 +62,7 @@
       "original": 440,
       "oferta": 359.99
     },
+    "stock": 1,
     "imagen": "/images/accesorios-mujeres/six.webp"
   },
   {
@@ -67,6 +73,7 @@
       "original": 300,
       "oferta": 239.99
     },
+    "stock": 1,
     "imagen": "/images/accesorios-mujeres/seven.webp"
   },
   {
@@ -77,6 +84,7 @@
       "original": 1100,
       "oferta": 799.99
     },
+    "stock": 1,
     "imagen": "/images/accesorios-mujeres/eight.webp"
   },
   {
@@ -87,6 +95,7 @@
       "original": 340,
       "oferta": 249.99
     },
+    "stock": 1,
     "imagen": "/images/accesorios-mujeres/nine.webp"
   },
   {
@@ -97,6 +106,7 @@
       "original": 280,
       "oferta": 229.99
     },
+    "stock": 1,
     "imagen": "/images/accesorios-mujeres/ten.webp"
   },
   {
@@ -107,6 +117,7 @@
       "original": 280,
       "oferta": 249.99
     },
+    "stock": 1,
     "imagen": "/images/accesorios-mujeres/eleven.png"
   },
   {
@@ -117,6 +128,7 @@
       "original": 320,
       "oferta": 289.99
     },
+    "stock": 1,
     "imagen": "/images/accesorios-mujeres/twelve.png"
   }
 ]

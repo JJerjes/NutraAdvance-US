@@ -57,9 +57,9 @@ out/
 # (Equivalente a dist/ pero para el backend: archivos binarios compilados por Visual Studio)
 
 # 1. (Evita subir los ejecutables/binarios compilados del backend, se regeneran al compilar)
-backend/bin/
+bin/
 # 2. (Evita subir archivos intermedios de compilacion del backend)
-backend/obj/
+obj/
 
 
 # Security / Environment

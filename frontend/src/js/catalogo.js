@@ -7,22 +7,54 @@ function createProductCard(product) {
   const card = document.createElement('div');
   card.classList.add('product-card');
 
+  // Verificar si hay stock disponible
+  const stockAvailable = product.stock && product.stock > 0;
+
   card.innerHTML = `
     <img src="${product.imagen}" alt="${product.nombre}" class="product-thumb" loading="lazy">
     <div class="product-info">
       <h3>${product.nombre}</h3>
       <p>${product.descripcion}</p>
+      
+      <!-- Contenedor con distribución en 2 columnas -->
       <div class="price-container">
-        <span class="original-price">Antes: S/${product.precio.original}</span>
-        <span class="price">Ahora: S/${product.precio.oferta}</span>
+        <!-- Columna Izquierda: Precio Anterior arriba y Precio Actual abajo -->
+        <div class="left-price">
+          ${
+            product.precio.original
+              ? `<span class="original-price">Antes: S/${product.precio.original}</span>`
+              : ''
+          }
+          <div class="current-price-wrapper">
+            <span class="price-label">Ahora:</span>
+            <span class="price">S/${product.precio.oferta}</span>
+          </div>
+        </div>
+
+        <!-- Columna Derecha: Estado de Stock -->
+        <div class="right-stock">
+          <span class="stock-badge ${stockAvailable ? 'in-stock' : 'out-of-stock'}">
+            ${stockAvailable ? `Stock: ${product.stock}` : 'Agotado'}
+          </span>
+        </div>
       </div>
-      <button class="btn-buy" data-id="${product.id}">Añadir al carrito</button>
+
+      <!-- Botón inteligente que se deshabilita si no hay stock -->
+      <button 
+        class="btn-buy" 
+        data-id="${product.id}" 
+        ${!stockAvailable ? 'disabled' : ''}
+      >
+        ${stockAvailable ? 'Añadir al carrito' : 'Agotado'}
+      </button>
     </div>
   `;
 
-  card
-    .querySelector('.btn-buy')
-    .addEventListener('click', () => addToCart(product));
+  // Asignar el evento solo si hay stock disponible
+  const buyBtn = card.querySelector('.btn-buy');
+  if (stockAvailable) {
+    buyBtn.addEventListener('click', () => addToCart(product));
+  }
 
   return card;
 }
